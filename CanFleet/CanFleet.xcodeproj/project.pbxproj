@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1B5804672A580B40004BE6FD /* CanFleetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5804662A580B40004BE6FD /* CanFleetApp.swift */; };
-		1B5804692A580B40004BE6FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5804682A580B40004BE6FD /* ContentView.swift */; };
 		1B58046B2A580B41004BE6FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B58046A2A580B41004BE6FD /* Assets.xcassets */; };
 		1B58046E2A580B41004BE6FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B58046D2A580B41004BE6FD /* Preview Assets.xcassets */; };
 		1B5804822A5932D0004BE6FD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5804802A5932D0004BE6FD /* LoginView.swift */; };
@@ -16,12 +15,17 @@
 		1B5804872A593647004BE6FD /* Utils in Frameworks */ = {isa = PBXBuildFile; productRef = 1B5804862A593647004BE6FD /* Utils */; };
 		1B5804892A5936B4004BE6FD /* Logger in Frameworks */ = {isa = PBXBuildFile; productRef = 1B5804882A5936B4004BE6FD /* Logger */; };
 		1B58048B2A5936B7004BE6FD /* API in Frameworks */ = {isa = PBXBuildFile; productRef = 1B58048A2A5936B7004BE6FD /* API */; };
+		1B58048E2A5937F1004BE6FD /* ViewComponents in Frameworks */ = {isa = PBXBuildFile; productRef = 1B58048D2A5937F1004BE6FD /* ViewComponents */; };
+		1B5804932A5938AD004BE6FD /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B5804912A5938AD004BE6FD /* Poppins-Bold.ttf */; };
+		1B5804942A5938AD004BE6FD /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B5804922A5938AD004BE6FD /* Poppins-Regular.ttf */; };
+		1BDA0FC32A59532A00448997 /* UniversalTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA0FC22A59532A00448997 /* UniversalTextfield.swift */; };
+		1BDA0FC52A59570A00448997 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA0FC42A59570A00448997 /* Validator.swift */; };
+		1BDA0FC82A5957DA00448997 /* UniversalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA0FC72A5957DA00448997 /* UniversalButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B5804632A580B40004BE6FD /* CanFleet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanFleet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B5804662A580B40004BE6FD /* CanFleetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanFleetApp.swift; sourceTree = "<group>"; };
-		1B5804682A580B40004BE6FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1B58046A2A580B41004BE6FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B58046D2A580B41004BE6FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1B5804742A580C50004BE6FD /* API */ = {isa = PBXFileReference; lastKnownFileType = text; name = API; path = Packages/API; sourceTree = SOURCE_ROOT; };
@@ -29,6 +33,13 @@
 		1B5804802A5932D0004BE6FD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		1B5804812A5932D0004BE6FD /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		1B5804842A5933DC004BE6FD /* Utils */ = {isa = PBXFileReference; lastKnownFileType = text; name = Utils; path = Packages/Utils; sourceTree = SOURCE_ROOT; };
+		1B58048C2A5937EA004BE6FD /* ViewComponents */ = {isa = PBXFileReference; lastKnownFileType = text; name = ViewComponents; path = Packages/ViewComponents; sourceTree = SOURCE_ROOT; };
+		1B5804912A5938AD004BE6FD /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		1B5804922A5938AD004BE6FD /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		1B5804952A59398B004BE6FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1BDA0FC22A59532A00448997 /* UniversalTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalTextfield.swift; sourceTree = "<group>"; };
+		1BDA0FC42A59570A00448997 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		1BDA0FC72A5957DA00448997 /* UniversalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +50,7 @@
 				1B58048B2A5936B7004BE6FD /* API in Frameworks */,
 				1B5804892A5936B4004BE6FD /* Logger in Frameworks */,
 				1B5804872A593647004BE6FD /* Utils in Frameworks */,
+				1B58048E2A5937F1004BE6FD /* ViewComponents in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,15 +77,19 @@
 		1B5804652A580B40004BE6FD /* CanFleet */ = {
 			isa = PBXGroup;
 			children = (
+				1B5804952A59398B004BE6FD /* Info.plist */,
+				1B58048C2A5937EA004BE6FD /* ViewComponents */,
 				1B5804842A5933DC004BE6FD /* Utils */,
 				1B5804752A580E12004BE6FD /* Logger */,
 				1B5804742A580C50004BE6FD /* API */,
 				1B5804662A580B40004BE6FD /* CanFleetApp.swift */,
-				1B5804682A580B40004BE6FD /* ContentView.swift */,
 				1B58046A2A580B41004BE6FD /* Assets.xcassets */,
+				1BDA0FC62A5957C500448997 /* ViewComponents */,
+				1B5804902A59388D004BE6FD /* Resources */,
 				1B58046C2A580B41004BE6FD /* Preview Content */,
 				1B5804802A5932D0004BE6FD /* LoginView.swift */,
 				1B5804812A5932D0004BE6FD /* LoginViewModel.swift */,
+				1BDA0FC42A59570A00448997 /* Validator.swift */,
 			);
 			path = CanFleet;
 			sourceTree = "<group>";
@@ -91,6 +107,32 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B58048F2A59387F004BE6FD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1B5804912A5938AD004BE6FD /* Poppins-Bold.ttf */,
+				1B5804922A5938AD004BE6FD /* Poppins-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1B5804902A59388D004BE6FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B58048F2A59387F004BE6FD /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1BDA0FC62A5957C500448997 /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA0FC22A59532A00448997 /* UniversalTextfield.swift */,
+				1BDA0FC72A5957DA00448997 /* UniversalButton.swift */,
+			);
+			path = ViewComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +155,7 @@
 				1B5804862A593647004BE6FD /* Utils */,
 				1B5804882A5936B4004BE6FD /* Logger */,
 				1B58048A2A5936B7004BE6FD /* API */,
+				1B58048D2A5937F1004BE6FD /* ViewComponents */,
 			);
 			productName = CanFleet;
 			productReference = 1B5804632A580B40004BE6FD /* CanFleet.app */;
@@ -157,7 +200,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B58046E2A580B41004BE6FD /* Preview Assets.xcassets in Resources */,
+				1B5804932A5938AD004BE6FD /* Poppins-Bold.ttf in Resources */,
 				1B58046B2A580B41004BE6FD /* Assets.xcassets in Resources */,
+				1B5804942A5938AD004BE6FD /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,8 +214,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B5804832A5932D0004BE6FD /* LoginViewModel.swift in Sources */,
+				1BDA0FC32A59532A00448997 /* UniversalTextfield.swift in Sources */,
+				1BDA0FC52A59570A00448997 /* Validator.swift in Sources */,
+				1BDA0FC82A5957DA00448997 /* UniversalButton.swift in Sources */,
 				1B5804822A5932D0004BE6FD /* LoginView.swift in Sources */,
-				1B5804692A580B40004BE6FD /* ContentView.swift in Sources */,
 				1B5804672A580B40004BE6FD /* CanFleetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +350,7 @@
 				DEVELOPMENT_TEAM = GDY7XCAX4D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CanFleet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -332,6 +380,7 @@
 				DEVELOPMENT_TEAM = GDY7XCAX4D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CanFleet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -385,6 +434,10 @@
 		1B58048A2A5936B7004BE6FD /* API */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = API;
+		};
+		1B58048D2A5937F1004BE6FD /* ViewComponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ViewComponents;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
