@@ -11,6 +11,11 @@
 		1B5804692A580B40004BE6FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5804682A580B40004BE6FD /* ContentView.swift */; };
 		1B58046B2A580B41004BE6FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B58046A2A580B41004BE6FD /* Assets.xcassets */; };
 		1B58046E2A580B41004BE6FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B58046D2A580B41004BE6FD /* Preview Assets.xcassets */; };
+		1B5804822A5932D0004BE6FD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5804802A5932D0004BE6FD /* LoginView.swift */; };
+		1B5804832A5932D0004BE6FD /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5804812A5932D0004BE6FD /* LoginViewModel.swift */; };
+		1B5804872A593647004BE6FD /* Utils in Frameworks */ = {isa = PBXBuildFile; productRef = 1B5804862A593647004BE6FD /* Utils */; };
+		1B5804892A5936B4004BE6FD /* Logger in Frameworks */ = {isa = PBXBuildFile; productRef = 1B5804882A5936B4004BE6FD /* Logger */; };
+		1B58048B2A5936B7004BE6FD /* API in Frameworks */ = {isa = PBXBuildFile; productRef = 1B58048A2A5936B7004BE6FD /* API */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,9 @@
 		1B58046D2A580B41004BE6FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1B5804742A580C50004BE6FD /* API */ = {isa = PBXFileReference; lastKnownFileType = text; name = API; path = Packages/API; sourceTree = SOURCE_ROOT; };
 		1B5804752A580E12004BE6FD /* Logger */ = {isa = PBXFileReference; lastKnownFileType = text; name = Logger; path = Packages/Logger; sourceTree = SOURCE_ROOT; };
+		1B5804802A5932D0004BE6FD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1B5804812A5932D0004BE6FD /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		1B5804842A5933DC004BE6FD /* Utils */ = {isa = PBXFileReference; lastKnownFileType = text; name = Utils; path = Packages/Utils; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +36,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B58048B2A5936B7004BE6FD /* API in Frameworks */,
+				1B5804892A5936B4004BE6FD /* Logger in Frameworks */,
+				1B5804872A593647004BE6FD /* Utils in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +50,7 @@
 			children = (
 				1B5804652A580B40004BE6FD /* CanFleet */,
 				1B5804642A580B40004BE6FD /* Products */,
+				1B5804852A593647004BE6FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,12 +65,15 @@
 		1B5804652A580B40004BE6FD /* CanFleet */ = {
 			isa = PBXGroup;
 			children = (
+				1B5804842A5933DC004BE6FD /* Utils */,
 				1B5804752A580E12004BE6FD /* Logger */,
 				1B5804742A580C50004BE6FD /* API */,
 				1B5804662A580B40004BE6FD /* CanFleetApp.swift */,
 				1B5804682A580B40004BE6FD /* ContentView.swift */,
 				1B58046A2A580B41004BE6FD /* Assets.xcassets */,
 				1B58046C2A580B41004BE6FD /* Preview Content */,
+				1B5804802A5932D0004BE6FD /* LoginView.swift */,
+				1B5804812A5932D0004BE6FD /* LoginViewModel.swift */,
 			);
 			path = CanFleet;
 			sourceTree = "<group>";
@@ -69,6 +84,13 @@
 				1B58046D2A580B41004BE6FD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1B5804852A593647004BE6FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +109,11 @@
 			dependencies = (
 			);
 			name = CanFleet;
+			packageProductDependencies = (
+				1B5804862A593647004BE6FD /* Utils */,
+				1B5804882A5936B4004BE6FD /* Logger */,
+				1B58048A2A5936B7004BE6FD /* API */,
+			);
 			productName = CanFleet;
 			productReference = 1B5804632A580B40004BE6FD /* CanFleet.app */;
 			productType = "com.apple.product-type.application";
@@ -141,6 +168,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B5804832A5932D0004BE6FD /* LoginViewModel.swift in Sources */,
+				1B5804822A5932D0004BE6FD /* LoginView.swift in Sources */,
 				1B5804692A580B40004BE6FD /* ContentView.swift in Sources */,
 				1B5804672A580B40004BE6FD /* CanFleetApp.swift in Sources */,
 			);
@@ -343,6 +372,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1B5804862A593647004BE6FD /* Utils */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Utils;
+		};
+		1B5804882A5936B4004BE6FD /* Logger */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Logger;
+		};
+		1B58048A2A5936B7004BE6FD /* API */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = API;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1B58045B2A580B40004BE6FD /* Project object */;
 }

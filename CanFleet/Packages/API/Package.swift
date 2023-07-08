@@ -26,7 +26,8 @@ let package = Package(
             name: "API",
             dependencies: [
                 .product(name: "Alamofire", package: "Alamofire")
-            ]),
+            ],
+            path: "Sources"),
         .testTarget(
             name: "APITests",
             dependencies: ["API"]),
