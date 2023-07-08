@@ -30,6 +30,7 @@
 		1BDA0FDE2A5960BD00448997 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA0FDC2A5960BD00448997 /* HomeView.swift */; };
 		1BDA0FDF2A5960BD00448997 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA0FDD2A5960BD00448997 /* HomeViewModel.swift */; };
 		1BDA0FE22A5961C800448997 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 1BDA0FE12A5961C800448997 /* PopupView */; };
+		1BDA0FE42A596F2B00448997 /* HomeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA0FE32A596F2B00448997 /* HomeNavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		1BDA0FD82A59605300448997 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		1BDA0FDC2A5960BD00448997 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1BDA0FDD2A5960BD00448997 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		1BDA0FE32A596F2B00448997 /* HomeNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			children = (
 				1BDA0FC22A59532A00448997 /* UniversalTextfield.swift */,
 				1BDA0FC72A5957DA00448997 /* UniversalButton.swift */,
+				1BDA0FE32A596F2B00448997 /* HomeNavigationBar.swift */,
 			);
 			path = ViewComponents;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				1BDA0FD12A59602A00448997 /* CompleteTaskView.swift in Sources */,
 				1BDA0FC32A59532A00448997 /* UniversalTextfield.swift in Sources */,
 				1BDA0FD92A59605300448997 /* AccountView.swift in Sources */,
+				1BDA0FE42A596F2B00448997 /* HomeNavigationBar.swift in Sources */,
 				1BDA0FC52A59570A00448997 /* Validator.swift in Sources */,
 				1BDA0FD62A59603A00448997 /* TodoTaskViewModel.swift in Sources */,
 				1BDA0FC82A5957DA00448997 /* UniversalButton.swift in Sources */,

@@ -16,19 +16,23 @@ struct HomeView: View {
     @ObservedObject private var viewModel = HomeViewModel()
     
     var body: some View {
-        TabView {
-            TodoTaskView()
-                .tabItem {
-                    Label("Todo", systemImage: "list.dash")
-                }
-            CompleteTaskView()
-                .tabItem {
-                    Label("Complete", systemImage: "square.and.pencil")
-                }
-            AccountView()
-                .tabItem {
-                    Label("Account", systemImage: "list.dash")
-                }
+        VStack {
+            HomeNavigationBar()
+            
+            TabView {
+                TodoTaskView()
+                    .tabItem {
+                        Label("Todo", systemImage: "list.dash")
+                    }
+                CompleteTaskView()
+                    .tabItem {
+                        Label("Complete", systemImage: "square.and.pencil")
+                    }
+                AccountView()
+                    .tabItem {
+                        Label("Account", systemImage: "list.dash")
+                    }
+            }
         }
     }
     
