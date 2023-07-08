@@ -21,6 +21,15 @@
 		1BDA0FC32A59532A00448997 /* UniversalTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA0FC22A59532A00448997 /* UniversalTextfield.swift */; };
 		1BDA0FC52A59570A00448997 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA0FC42A59570A00448997 /* Validator.swift */; };
 		1BDA0FC82A5957DA00448997 /* UniversalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA0FC72A5957DA00448997 /* UniversalButton.swift */; };
+		1BDA0FD12A59602A00448997 /* CompleteTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA0FCF2A59602A00448997 /* CompleteTaskView.swift */; };
+		1BDA0FD22A59602A00448997 /* CompleteTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA0FD02A59602A00448997 /* CompleteTaskViewModel.swift */; };
+		1BDA0FD52A59603A00448997 /* TodoTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA0FD32A59603A00448997 /* TodoTaskView.swift */; };
+		1BDA0FD62A59603A00448997 /* TodoTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA0FD42A59603A00448997 /* TodoTaskViewModel.swift */; };
+		1BDA0FD92A59605300448997 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA0FD72A59605300448997 /* AccountView.swift */; };
+		1BDA0FDA2A59605300448997 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA0FD82A59605300448997 /* AccountViewModel.swift */; };
+		1BDA0FDE2A5960BD00448997 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA0FDC2A5960BD00448997 /* HomeView.swift */; };
+		1BDA0FDF2A5960BD00448997 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA0FDD2A5960BD00448997 /* HomeViewModel.swift */; };
+		1BDA0FE22A5961C800448997 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 1BDA0FE12A5961C800448997 /* PopupView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +49,14 @@
 		1BDA0FC22A59532A00448997 /* UniversalTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalTextfield.swift; sourceTree = "<group>"; };
 		1BDA0FC42A59570A00448997 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		1BDA0FC72A5957DA00448997 /* UniversalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalButton.swift; sourceTree = "<group>"; };
+		1BDA0FCF2A59602A00448997 /* CompleteTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteTaskView.swift; sourceTree = "<group>"; };
+		1BDA0FD02A59602A00448997 /* CompleteTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteTaskViewModel.swift; sourceTree = "<group>"; };
+		1BDA0FD32A59603A00448997 /* TodoTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTaskView.swift; sourceTree = "<group>"; };
+		1BDA0FD42A59603A00448997 /* TodoTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTaskViewModel.swift; sourceTree = "<group>"; };
+		1BDA0FD72A59605300448997 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		1BDA0FD82A59605300448997 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		1BDA0FDC2A5960BD00448997 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1BDA0FDD2A5960BD00448997 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +66,7 @@
 			files = (
 				1B58048B2A5936B7004BE6FD /* API in Frameworks */,
 				1B5804892A5936B4004BE6FD /* Logger in Frameworks */,
+				1BDA0FE22A5961C800448997 /* PopupView in Frameworks */,
 				1B5804872A593647004BE6FD /* Utils in Frameworks */,
 				1B58048E2A5937F1004BE6FD /* ViewComponents in Frameworks */,
 			);
@@ -83,12 +101,10 @@
 				1B5804752A580E12004BE6FD /* Logger */,
 				1B5804742A580C50004BE6FD /* API */,
 				1B5804662A580B40004BE6FD /* CanFleetApp.swift */,
-				1B58046A2A580B41004BE6FD /* Assets.xcassets */,
 				1BDA0FC62A5957C500448997 /* ViewComponents */,
 				1B5804902A59388D004BE6FD /* Resources */,
 				1B58046C2A580B41004BE6FD /* Preview Content */,
-				1B5804802A5932D0004BE6FD /* LoginView.swift */,
-				1B5804812A5932D0004BE6FD /* LoginViewModel.swift */,
+				1BDA0FC92A595FA200448997 /* MVVM */,
 				1BDA0FC42A59570A00448997 /* Validator.swift */,
 			);
 			path = CanFleet;
@@ -121,6 +137,7 @@
 		1B5804902A59388D004BE6FD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1B58046A2A580B41004BE6FD /* Assets.xcassets */,
 				1B58048F2A59387F004BE6FD /* Fonts */,
 			);
 			path = Resources;
@@ -133,6 +150,39 @@
 				1BDA0FC72A5957DA00448997 /* UniversalButton.swift */,
 			);
 			path = ViewComponents;
+			sourceTree = "<group>";
+		};
+		1BDA0FC92A595FA200448997 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA0FDB2A59608E00448997 /* Authentication */,
+				1BDA0FCA2A595FC000448997 /* Main */,
+				1BDA0FDC2A5960BD00448997 /* HomeView.swift */,
+				1BDA0FDD2A5960BD00448997 /* HomeViewModel.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		1BDA0FCA2A595FC000448997 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA0FCF2A59602A00448997 /* CompleteTaskView.swift */,
+				1BDA0FD02A59602A00448997 /* CompleteTaskViewModel.swift */,
+				1BDA0FD32A59603A00448997 /* TodoTaskView.swift */,
+				1BDA0FD42A59603A00448997 /* TodoTaskViewModel.swift */,
+				1BDA0FD72A59605300448997 /* AccountView.swift */,
+				1BDA0FD82A59605300448997 /* AccountViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1BDA0FDB2A59608E00448997 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				1B5804802A5932D0004BE6FD /* LoginView.swift */,
+				1B5804812A5932D0004BE6FD /* LoginViewModel.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +206,7 @@
 				1B5804882A5936B4004BE6FD /* Logger */,
 				1B58048A2A5936B7004BE6FD /* API */,
 				1B58048D2A5937F1004BE6FD /* ViewComponents */,
+				1BDA0FE12A5961C800448997 /* PopupView */,
 			);
 			productName = CanFleet;
 			productReference = 1B5804632A580B40004BE6FD /* CanFleet.app */;
@@ -185,6 +236,9 @@
 				Base,
 			);
 			mainGroup = 1B58045A2A580B40004BE6FD;
+			packageReferences = (
+				1BDA0FE02A5961C800448997 /* XCRemoteSwiftPackageReference "PopupView" */,
+			);
 			productRefGroup = 1B5804642A580B40004BE6FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -213,11 +267,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BDA0FD22A59602A00448997 /* CompleteTaskViewModel.swift in Sources */,
 				1B5804832A5932D0004BE6FD /* LoginViewModel.swift in Sources */,
+				1BDA0FDE2A5960BD00448997 /* HomeView.swift in Sources */,
+				1BDA0FD12A59602A00448997 /* CompleteTaskView.swift in Sources */,
 				1BDA0FC32A59532A00448997 /* UniversalTextfield.swift in Sources */,
+				1BDA0FD92A59605300448997 /* AccountView.swift in Sources */,
 				1BDA0FC52A59570A00448997 /* Validator.swift in Sources */,
+				1BDA0FD62A59603A00448997 /* TodoTaskViewModel.swift in Sources */,
 				1BDA0FC82A5957DA00448997 /* UniversalButton.swift in Sources */,
+				1BDA0FDF2A5960BD00448997 /* HomeViewModel.swift in Sources */,
+				1BDA0FD52A59603A00448997 /* TodoTaskView.swift in Sources */,
 				1B5804822A5932D0004BE6FD /* LoginView.swift in Sources */,
+				1BDA0FDA2A59605300448997 /* AccountViewModel.swift in Sources */,
 				1B5804672A580B40004BE6FD /* CanFleetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +484,17 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		1BDA0FE02A5961C800448997 /* XCRemoteSwiftPackageReference "PopupView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/PopupView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		1B5804862A593647004BE6FD /* Utils */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -438,6 +511,11 @@
 		1B58048D2A5937F1004BE6FD /* ViewComponents */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ViewComponents;
+		};
+		1BDA0FE12A5961C800448997 /* PopupView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1BDA0FE02A5961C800448997 /* XCRemoteSwiftPackageReference "PopupView" */;
+			productName = PopupView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
