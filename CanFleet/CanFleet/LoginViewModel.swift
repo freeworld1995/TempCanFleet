@@ -21,13 +21,6 @@ import Combine
     // MARK: - Methods
     
     // MARK: Public methods
-    func validate() -> Bool {
-        let isPhoneValid = phoneValidator.validate()
-        let isPasswordValid = passwordValidator.validate()
-        objectWillChange.send()
-        
-        return isPhoneValid && isPasswordValid
-    }
     
     func login() {
         guard validate() else {
@@ -36,4 +29,12 @@ import Combine
     }
     
     // MARK: Private methods
+    
+    private func validate() -> Bool {
+        let isPhoneValid = phoneValidator.validate()
+        let isPasswordValid = passwordValidator.validate()
+        objectWillChange.send()
+        
+        return isPhoneValid && isPasswordValid
+    }
 }
