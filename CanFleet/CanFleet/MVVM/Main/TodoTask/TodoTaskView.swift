@@ -14,9 +14,21 @@ struct TodoTaskView: View {
     // MARK: - Properties
     
     @ObservedObject private var viewModel = TodoTaskViewModel()
+    @EnvironmentObject var appState: AppState
     
     var body: some View {
-        Text("Todo")
+        VStack {
+            List {
+                ForEach(appState.tasks) { task in
+                    Text("\(task.id ?? "Unknown")")
+                }
+            }
+        }
+        .onAppear {
+            Task {
+                await appState.fetchTodoTasks()
+            }
+        }
     }
     
     // MARK: Methods

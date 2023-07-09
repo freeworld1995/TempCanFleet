@@ -12,7 +12,6 @@ import Utils
 struct HomeView: View {
     
     // MARK: - Properties
-    
     @ObservedObject private var viewModel = HomeViewModel()
     
     var body: some View {

@@ -9,17 +9,17 @@ import Foundation
 import OSLog
 
 public class Logger {
-    static let shared = Logger()
+    public static let shared = Logger()
     
-    func debug(_ text: String, filePath: String = #file, line: Int = #line, functionName: String = #function) {
+    public func debug(_ text: String, filePath: String = #file, line: Int = #line, functionName: String = #function) {
         log(type: .debug, message: text, file: filePath, function: functionName, line: line)
     }
     
-    func network(_ text: String, filePath: String = #file, line: Int = #line, functionName: String = #function) {
+    public func network(_ text: String, filePath: String = #file, line: Int = #line, functionName: String = #function) {
         log(type: .network, message: text, file: filePath, function: functionName, line: line)
     }
     
-    func error(_ text: String, filePath: String = #file, line: Int = #line, functionName: String = #function) {
+    public func error(_ text: String, filePath: String = #file, line: Int = #line, functionName: String = #function) {
         log(type: .error, message: text, file: filePath, function: functionName, line: line)
     }
     

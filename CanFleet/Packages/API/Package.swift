@@ -17,7 +17,8 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.6.4"))
+        .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.6.4")),
+        .package(path: "Logger"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -25,7 +26,8 @@ let package = Package(
         .target(
             name: "API",
             dependencies: [
-                .product(name: "Alamofire", package: "Alamofire")
+                "Logger",
+                .product(name: "Alamofire", package: "Alamofire"),
             ],
             path: "Sources"),
         .testTarget(

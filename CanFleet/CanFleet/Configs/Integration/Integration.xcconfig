@@ -1,0 +1,11 @@
+//
+//  Integration.xcconfig
+//  CanFleet
+//
+//  Created by groo on 09/07/2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+APP_API_URL = https:/$()/ecom-api.int.canteccouriers.com/v1

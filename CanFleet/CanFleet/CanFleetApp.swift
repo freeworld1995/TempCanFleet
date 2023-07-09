@@ -11,7 +11,8 @@ import SwiftUI
 struct CanFleetApp: App {
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            HomeView()
+                .environmentObject(AppState.shared)
         }
     }
 }

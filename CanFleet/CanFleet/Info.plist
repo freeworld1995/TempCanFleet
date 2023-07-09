@@ -7,5 +7,7 @@
 		<string>Poppins-Bold.ttf</string>
 		<string>Poppins-Regular.ttf</string>
 	</array>
+	<key>APP_API_URL</key>
+	<string>${APP_API_URL}</string>
 </dict>
 </plist>
